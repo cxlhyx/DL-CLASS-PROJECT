@@ -1,0 +1,68 @@
+% CVPR 2025 Paper Template; see https://github.com/cvpr-org/author-kit
+
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+%%%%%%%%% PAPER TYPE  - PLEASE UPDATE FOR FINAL VERSION
+%\usepackage[review]{cvpr}      % To produce the REVIEW version
+\usepackage{cvpr}
+
+% Import additional packages in the preamble file, before hyperref
+%\input{preamble}
+
+% It is strongly recommended to use hyperref, especially for the review version.
+% hyperref with option pagebackref eases the reviewers' job.
+% Please disable hyperref *only* if you encounter grave issues, 
+% e.g. with the file validation for the camera-ready version.
+%
+% If you comment hyperref and then uncomment it, you should delete *.aux before re-running LaTeX.
+% (Or just hit 'q' on the first LaTeX run, let it finish, and you should be clear).
+\definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
+\usepackage[pagebackref,breaklinks,colorlinks,allcolors=cvprblue]{hyperref}
+
+\usepackage{listings}
+\usepackage{tabularx}
+
+%%%%%%%%% PAPER ID  - PLEASE UPDATE
+\def\paperID{*****} % *** Enter the Paper ID here
+\def\confName{CVPR}
+\def\confYear{2025}
+
+%%%%%%%%% TITLE - PLEASE UPDATE
+\title{Diffusion Models for Dynamic Video Synthesis with Image and Text Prompts Guidance}
+
+%%%%%%%%% AUTHORS - PLEASE UPDATE
+\author{
+First Author\\LeHao Ling\\{\tt\small firstauthor@i1.org}\\45\%
+\and
+Second Author\\YuXuan Huang\\{\tt\small cxlhyx1297767084@gmail.com}\\35\%
+\and
+Third Author\\JianLin Luo\\{\tt\small firstauthor@i1.org}\\20\%
+\\
+\\Institution\\School of Artificial Intelligence, South China Normal University
+\\Institution address\\Foshan, 528225, China
+\\\hyperref[https://github.com/cxlhyx/DL-CLASS-PROJECT]{\textbf{https://github.com/cxlhyx/DL-CLASS-PROJECT}}
+% For a paper whose authors are all at the same institution,
+% omit the following lines up until the closing ``}''.
+% Additional authors and addresses can be added with ``\and'',
+% just like the second author.
+% To save space, use either the email address or home page, not both
+}
+
+\begin{document}
+    \maketitle
+    \input{sec/0_abs}    
+    \input{sec/1_intro}
+    \input{sec/2_relat}
+    \input{sec/3_meth}
+    \input{sec/4_exp}
+    \input{sec/5_diss}
+    \input{sec/6_con}
+
+    \appendix
+    \input{sec/contri.tex}
+    {
+        \small
+        \bibliographystyle{ieeenat_fullname}
+        \bibliography{references}
+    }
+\end{document}

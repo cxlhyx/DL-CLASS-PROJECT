@@ -1,0 +1,113 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[An et~al.(2023)An, Zhang, Yang, Gupta, Huang, Luo, and Yin]{an2023latent}
+Jie An, Songyang Zhang, Harry Yang, Sonal Gupta, Jia-Bin Huang, Jiebo Luo, and Xi Yin.
+\newblock Latent-shift: Latent diffusion with temporal shift for efficient text-to-video generation.
+\newblock \emph{arXiv preprint arXiv:2304.08477}, 2023.
+
+\bibitem[Blattmann et~al.(2023)Blattmann, Rombach, Ling, Dockhorn, Kim, Fidler, and Kreis]{blattmann2023align}
+Andreas Blattmann, Robin Rombach, Huan Ling, Tim Dockhorn, Seung~Wook Kim, Sanja Fidler, and Karsten Kreis.
+\newblock Align your latents: High-resolution video synthesis with latent diffusion models.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 22563--22575, 2023.
+
+\bibitem[Chen et~al.(2023)Chen, Zhang, Wu, Wang, Duan, Zhou, and Zhu]{chen2023disenbooth}
+Hong Chen, Yipeng Zhang, Simin Wu, Xin Wang, Xuguang Duan, Yuwei Zhou, and Wenwu Zhu.
+\newblock Disenbooth: Identity-preserving disentangled tuning for subject-driven text-to-image generation.
+\newblock \emph{arXiv preprint arXiv:2305.03374}, 2023.
+
+\bibitem[Choi et~al.(2023)Choi, Choi, Kim, Kim, and Yoon]{choi2023custom}
+Jooyoung Choi, Yunjey Choi, Yunji Kim, Junho Kim, and Sungroh Yoon.
+\newblock Custom-edit: Text-guided image editing with customized diffusion models.
+\newblock \emph{arXiv preprint arXiv:2305.15779}, 2023.
+
+\bibitem[Esser et~al.(2023)Esser, Chiu, Atighehchian, Granskog, and Germanidis]{esser2023structure}
+Patrick Esser, Johnathan Chiu, Parmida Atighehchian, Jonathan Granskog, and Anastasis Germanidis.
+\newblock Structure and content-guided video synthesis with diffusion models.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on Computer Vision}, pages 7346--7356, 2023.
+
+\bibitem[He et~al.(2024)He, Liu, Qian, Wang, Hu, Cao, Yan, and Zhang]{he2024id}
+Xuanhua He, Quande Liu, Shengju Qian, Xin Wang, Tao Hu, Ke Cao, Keyu Yan, and Jie Zhang.
+\newblock Id-animator: Zero-shot identity-preserving human video generation.
+\newblock \emph{arXiv preprint arXiv:2404.15275}, 2024.
+
+\bibitem[He et~al.(2022)He, Yang, Zhang, Shan, and Chen]{he2022latent}
+Yingqing He, Tianyu Yang, Yong Zhang, Ying Shan, and Qifeng Chen.
+\newblock Latent video diffusion models for high-fidelity long video generation.
+\newblock \emph{arXiv preprint arXiv:2211.13221}, 2022.
+
+\bibitem[Ho et~al.(2020)Ho, Jain, and Abbeel]{ho2020denoising}
+Jonathan Ho, Ajay Jain, and Pieter Abbeel.
+\newblock Denoising diffusion probabilistic models.
+\newblock \emph{Advances in neural information processing systems}, 33:\penalty0 6840--6851, 2020.
+
+\bibitem[Ho et~al.(2022)Ho, Chan, Saharia, Whang, Gao, Gritsenko, Kingma, Poole, Norouzi, Fleet, et~al.]{ho2022imagen}
+Jonathan Ho, William Chan, Chitwan Saharia, Jay Whang, Ruiqi Gao, Alexey Gritsenko, Diederik~P Kingma, Ben Poole, Mohammad Norouzi, David~J Fleet, et~al.
+\newblock Imagen video: High definition video generation with diffusion models.
+\newblock \emph{arXiv preprint arXiv:2210.02303}, 2022.
+
+\bibitem[Hong et~al.(2022)Hong, Ding, Zheng, Liu, and Tang]{hong2022cogvideo}
+Wenyi Hong, Ming Ding, Wendi Zheng, Xinghan Liu, and Jie Tang.
+\newblock Cogvideo: Large-scale pretraining for text-to-video generation via transformers.
+\newblock \emph{arXiv preprint arXiv:2205.15868}, 2022.
+
+\bibitem[Huang et~al.(2024)Huang, Feng, Shi, Xu, Yu, and Yang]{huang2024free}
+Hanzhuo Huang, Yufan Feng, Cheng Shi, Lan Xu, Jingyi Yu, and Sibei Yang.
+\newblock Free-bloom: Zero-shot text-to-video generator with llm director and ldm animator.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36, 2024.
+
+\bibitem[Jiang et~al.(2024)Jiang, Wu, Yang, Si, Lin, Qiao, Loy, and Liu]{jiang2024videobooth}
+Yuming Jiang, Tianxing Wu, Shuai Yang, Chenyang Si, Dahua Lin, Yu Qiao, Chen~Change Loy, and Ziwei Liu.
+\newblock Videobooth: Diffusion-based video generation with image prompts.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 6689--6700, 2024.
+
+\bibitem[Li et~al.(2023)Li, Zhu, Han, Hou, Guo, and Cheng]{li2023amt}
+Zhen Li, Zuo-Liang Zhu, Ling-Hao Han, Qibin Hou, Chun-Le Guo, and Ming-Ming Cheng.
+\newblock Amt: All-pairs multi-field transforms for efficient frame interpolation.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 9801--9810, 2023.
+
+\bibitem[Mou et~al.(2024)Mou, Wang, Xie, Wu, Zhang, Qi, and Shan]{mou2024t2i}
+Chong Mou, Xintao Wang, Liangbin Xie, Yanze Wu, Jian Zhang, Zhongang Qi, and Ying Shan.
+\newblock T2i-adapter: Learning adapters to dig out more controllable ability for text-to-image diffusion models.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial Intelligence}, pages 4296--4304, 2024.
+
+\bibitem[Rombach et~al.(2022)Rombach, Blattmann, Lorenz, Esser, and Ommer]{rombach2022high}
+Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bj{\"o}rn Ommer.
+\newblock High-resolution image synthesis with latent diffusion models.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pages 10684--10695, 2022.
+
+\bibitem[Ruiz et~al.(2023)Ruiz, Li, Jampani, Pritch, Rubinstein, and Aberman]{ruiz2023dreambooth}
+Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, and Kfir Aberman.
+\newblock Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pages 22500--22510, 2023.
+
+\bibitem[Singer et~al.(2022)Singer, Polyak, Hayes, Yin, An, Zhang, Hu, Yang, Ashual, Gafni, et~al.]{singer2022make}
+Uriel Singer, Adam Polyak, Thomas Hayes, Xi Yin, Jie An, Songyang Zhang, Qiyuan Hu, Harry Yang, Oron Ashual, Oran Gafni, et~al.
+\newblock Make-a-video: Text-to-video generation without text-video data.
+\newblock \emph{arXiv preprint arXiv:2209.14792}, 2022.
+
+\bibitem[Tulyakov et~al.(2018)Tulyakov, Liu, Yang, and Kautz]{tulyakov2018mocogan}
+Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, and Jan Kautz.
+\newblock Mocogan: Decomposing motion and content for video generation.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 1526--1535, 2018.
+
+\bibitem[Villegas et~al.(2022)Villegas, Babaeizadeh, Kindermans, Moraldo, Zhang, Saffar, Castro, Kunze, and Erhan]{villegas2022phenaki}
+Ruben Villegas, Mohammad Babaeizadeh, Pieter-Jan Kindermans, Hernan Moraldo, Han Zhang, Mohammad~Taghi Saffar, Santiago Castro, Julius Kunze, and Dumitru Erhan.
+\newblock Phenaki: Variable length video generation from open domain textual descriptions.
+\newblock In \emph{International Conference on Learning Representations}, 2022.
+
+\bibitem[Wang et~al.(2023)Wang, Jiang, Xie, Liu, Chen, Cao, Wang, and Shen]{wang2023zero}
+Wen Wang, Yan Jiang, Kangyang Xie, Zide Liu, Hao Chen, Yue Cao, Xinlong Wang, and Chunhua Shen.
+\newblock Zero-shot video editing using off-the-shelf image diffusion models.
+\newblock \emph{arXiv preprint arXiv:2303.17599}, 2023.
+
+\bibitem[Yuan et~al.(2024)Yuan, Huang, He, Ge, Shi, Chen, Luo, and Yuan]{yuan2024identity}
+Shenghai Yuan, Jinfa Huang, Xianyi He, Yunyuan Ge, Yujun Shi, Liuhan Chen, Jiebo Luo, and Li Yuan.
+\newblock Identity-preserving text-to-video generation by frequency decomposition.
+\newblock \emph{arXiv preprint arXiv:2411.17440}, 2024.
+
+\end{thebibliography}
