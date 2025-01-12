@@ -13,3 +13,6 @@ VideoBooth源代码来自：https://github.com/Vchitect/VideoBooth
 
 除此以外，我们还做了一些未在课程报告中提及的尝试，比如添加training-free的帧间增强模块Enhance_Video(原项目：https://github.com/NUS-HPC-AI-Lab/Enhance-A-Video)
 相关代码在models/attention.py的383行到475行，以及enhence.py文件
+
+### 预训练模型
+由于GitHub内存有限，这里我们没有上传预训练权重。
